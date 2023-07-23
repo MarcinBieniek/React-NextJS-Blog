@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Register = () => {
+const loading = () => {
   return (
     <div>
-      Register
+      Loading
     </div>
   )
 }
 
-export default Register
+export default loading
