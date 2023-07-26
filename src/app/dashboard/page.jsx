@@ -10,7 +10,7 @@ const Dashboard = () => {
   const [err, setErr] = useState(false);
   //const [isLoading, setIsLoading] = useState(false)
 
-/*
+  /*
   useEffect(() => {
     const getData = async () => {
       setIsLoading(true)
@@ -28,7 +28,7 @@ const Dashboard = () => {
     };
     getData()
   }, [])
-*/
+  */
 
   const fetcher = (...args) => fetch(...args).then(res => res.json())
 
