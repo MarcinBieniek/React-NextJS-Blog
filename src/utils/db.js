@@ -7,6 +7,7 @@ const connect = async () => {
   } catch (error) {
     throw new Error("Connection failed!")
   }
+
 }
 
 export default connect;
