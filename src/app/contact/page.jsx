@@ -3,6 +3,11 @@ import styles from './page.module.css'
 import Image from 'next/image'
 import Button from '@/components/button/button'
 
+export const metadata = {
+  title: 'Techmania Contact',
+  description: 'Very important SEO description',
+}
+
 const Contact = () => {
   return (
     <div className={styles.container}>
